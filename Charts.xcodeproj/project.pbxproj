@@ -11,9 +11,7 @@
 		06B11FAF1D811B7000D14B02 /* Charts.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B11FAE1D811B7000D14B02 /* Charts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06B120CA1D811BFC00D14B02 /* BarChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B120C71D811BFC00D14B02 /* BarChartTests.swift */; };
 		06B120CC1D811BFC00D14B02 /* LineChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B120C91D811BFC00D14B02 /* LineChartTests.swift */; };
-		06B120F91D811E9600D14B02 /* ChartsRealm.h in Headers */ = {isa = PBXBuildFile; fileRef = 06B120F71D811E9600D14B02 /* ChartsRealm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06B121041D811F1600D14B02 /* ChartsRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B120D51D811E6200D14B02 /* ChartsRealm.framework */; };
-		06B121141D81208F00D14B02 /* ChartsRealmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B121131D81208F00D14B02 /* ChartsRealmTest.swift */; };
 		06B121151D81214300D14B02 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06165F241D8110E600722320 /* Charts.framework */; };
 		06E75C551D90B08F0013442C /* ChartAnimationEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75BD71D90B08F0013442C /* ChartAnimationEasing.swift */; };
 		06E75C561D90B08F0013442C /* ChartAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75BD81D90B08F0013442C /* ChartAnimator.swift */; };
@@ -128,25 +126,6 @@
 		06E75CC31D90B08F0013442C /* ChartTransformerHorizontalBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75C521D90B08F0013442C /* ChartTransformerHorizontalBarChart.swift */; };
 		06E75CC41D90B08F0013442C /* ChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75C531D90B08F0013442C /* ChartUtils.swift */; };
 		06E75CC51D90B08F0013442C /* ChartViewPortHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75C541D90B08F0013442C /* ChartViewPortHandler.swift */; };
-		06E75CDB1D90B0BB0013442C /* RealmBarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CC71D90B0BB0013442C /* RealmBarData.swift */; };
-		06E75CDC1D90B0BB0013442C /* RealmBarDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CC81D90B0BB0013442C /* RealmBarDataSet.swift */; };
-		06E75CDD1D90B0BB0013442C /* RealmBarLineScatterCandleBubbleDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CC91D90B0BB0013442C /* RealmBarLineScatterCandleBubbleDataSet.swift */; };
-		06E75CDE1D90B0BB0013442C /* RealmBaseDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCA1D90B0BB0013442C /* RealmBaseDataSet.swift */; };
-		06E75CDF1D90B0BB0013442C /* RealmBubbleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCB1D90B0BB0013442C /* RealmBubbleData.swift */; };
-		06E75CE01D90B0BB0013442C /* RealmBubbleDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCC1D90B0BB0013442C /* RealmBubbleDataSet.swift */; };
-		06E75CE11D90B0BB0013442C /* RealmCandleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCD1D90B0BB0013442C /* RealmCandleData.swift */; };
-		06E75CE21D90B0BB0013442C /* RealmCandleDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCE1D90B0BB0013442C /* RealmCandleDataSet.swift */; };
-		06E75CE31D90B0BB0013442C /* RealmLineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CCF1D90B0BB0013442C /* RealmLineData.swift */; };
-		06E75CE41D90B0BB0013442C /* RealmLineDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD01D90B0BB0013442C /* RealmLineDataSet.swift */; };
-		06E75CE51D90B0BB0013442C /* RealmLineRadarDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD11D90B0BB0013442C /* RealmLineRadarDataSet.swift */; };
-		06E75CE61D90B0BB0013442C /* RealmLineScatterCandleRadarDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD21D90B0BB0013442C /* RealmLineScatterCandleRadarDataSet.swift */; };
-		06E75CE71D90B0BB0013442C /* RealmPieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD31D90B0BB0013442C /* RealmPieData.swift */; };
-		06E75CE81D90B0BB0013442C /* RealmPieDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD41D90B0BB0013442C /* RealmPieDataSet.swift */; };
-		06E75CE91D90B0BB0013442C /* RealmRadarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD51D90B0BB0013442C /* RealmRadarData.swift */; };
-		06E75CEA1D90B0BB0013442C /* RealmRadarDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD61D90B0BB0013442C /* RealmRadarDataSet.swift */; };
-		06E75CEB1D90B0BB0013442C /* RealmScatterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD71D90B0BB0013442C /* RealmScatterData.swift */; };
-		06E75CEC1D90B0BB0013442C /* RealmScatterDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CD81D90B0BB0013442C /* RealmScatterDataSet.swift */; };
-		06E75CED1D90B0BB0013442C /* RealmChartUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E75CDA1D90B0BB0013442C /* RealmChartUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -169,18 +148,13 @@
 /* Begin PBXFileReference section */
 		06165F241D8110E600722320 /* Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06165F2E1D8110E600722320 /* ChartsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		063FF0401D8CC9940094A042 /* Carthage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Carthage.xcconfig; sourceTree = "<group>"; };
 		06B11FAC1D811B6600D14B02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Source/Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		06B11FAE1D811B7000D14B02 /* Charts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Charts.h; path = "Source/Supporting Files/Charts.h"; sourceTree = "<group>"; };
 		06B120C71D811BFC00D14B02 /* BarChartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BarChartTests.swift; path = Tests/Charts/BarChartTests.swift; sourceTree = SOURCE_ROOT; };
 		06B120C91D811BFC00D14B02 /* LineChartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChartTests.swift; path = Tests/Charts/LineChartTests.swift; sourceTree = SOURCE_ROOT; };
 		06B120D51D811E6200D14B02 /* ChartsRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChartsRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		06B120F71D811E9600D14B02 /* ChartsRealm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChartsRealm.h; path = "Source/Supporting Files/ChartsRealm.h"; sourceTree = "<group>"; };
-		06B120F81D811E9600D14B02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Source/Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		06B120FF1D811F1600D14B02 /* ChartsRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		06B1210F1D81201100D14B02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Tests/Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		06B121111D81201C00D14B02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Tests/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
-		06B121131D81208F00D14B02 /* ChartsRealmTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartsRealmTest.swift; path = Tests/ChartsRealm/ChartsRealmTest.swift; sourceTree = "<group>"; };
 		06E75BD71D90B08F0013442C /* ChartAnimationEasing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartAnimationEasing.swift; sourceTree = "<group>"; };
 		06E75BD81D90B08F0013442C /* ChartAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartAnimator.swift; sourceTree = "<group>"; };
 		06E75BDA1D90B08F0013442C /* BarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
@@ -294,25 +268,6 @@
 		06E75C521D90B08F0013442C /* ChartTransformerHorizontalBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartTransformerHorizontalBarChart.swift; sourceTree = "<group>"; };
 		06E75C531D90B08F0013442C /* ChartUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartUtils.swift; sourceTree = "<group>"; };
 		06E75C541D90B08F0013442C /* ChartViewPortHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewPortHandler.swift; sourceTree = "<group>"; };
-		06E75CC71D90B0BB0013442C /* RealmBarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBarData.swift; sourceTree = "<group>"; };
-		06E75CC81D90B0BB0013442C /* RealmBarDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBarDataSet.swift; sourceTree = "<group>"; };
-		06E75CC91D90B0BB0013442C /* RealmBarLineScatterCandleBubbleDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBarLineScatterCandleBubbleDataSet.swift; sourceTree = "<group>"; };
-		06E75CCA1D90B0BB0013442C /* RealmBaseDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBaseDataSet.swift; sourceTree = "<group>"; };
-		06E75CCB1D90B0BB0013442C /* RealmBubbleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBubbleData.swift; sourceTree = "<group>"; };
-		06E75CCC1D90B0BB0013442C /* RealmBubbleDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmBubbleDataSet.swift; sourceTree = "<group>"; };
-		06E75CCD1D90B0BB0013442C /* RealmCandleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmCandleData.swift; sourceTree = "<group>"; };
-		06E75CCE1D90B0BB0013442C /* RealmCandleDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmCandleDataSet.swift; sourceTree = "<group>"; };
-		06E75CCF1D90B0BB0013442C /* RealmLineData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmLineData.swift; sourceTree = "<group>"; };
-		06E75CD01D90B0BB0013442C /* RealmLineDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmLineDataSet.swift; sourceTree = "<group>"; };
-		06E75CD11D90B0BB0013442C /* RealmLineRadarDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmLineRadarDataSet.swift; sourceTree = "<group>"; };
-		06E75CD21D90B0BB0013442C /* RealmLineScatterCandleRadarDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmLineScatterCandleRadarDataSet.swift; sourceTree = "<group>"; };
-		06E75CD31D90B0BB0013442C /* RealmPieData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPieData.swift; sourceTree = "<group>"; };
-		06E75CD41D90B0BB0013442C /* RealmPieDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmPieDataSet.swift; sourceTree = "<group>"; };
-		06E75CD51D90B0BB0013442C /* RealmRadarData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRadarData.swift; sourceTree = "<group>"; };
-		06E75CD61D90B0BB0013442C /* RealmRadarDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmRadarDataSet.swift; sourceTree = "<group>"; };
-		06E75CD71D90B0BB0013442C /* RealmScatterData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmScatterData.swift; sourceTree = "<group>"; };
-		06E75CD81D90B0BB0013442C /* RealmScatterDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmScatterDataSet.swift; sourceTree = "<group>"; };
-		06E75CDA1D90B0BB0013442C /* RealmChartUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmChartUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,11 +308,8 @@
 		06165F1A1D8110E600722320 = {
 			isa = PBXGroup;
 			children = (
-				063FF0401D8CC9940094A042 /* Carthage.xcconfig */,
 				06500D381D81115900156E8A /* Charts */,
 				06165F321D8110E700722320 /* ChartsTests */,
-				06B120CD1D811D9D00D14B02 /* ChartsRealm */,
-				06B1210A1D811F2D00D14B02 /* ChartsRealmTests */,
 				06165F251D8110E600722320 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -419,54 +371,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		06B120CD1D811D9D00D14B02 /* ChartsRealm */ = {
-			isa = PBXGroup;
-			children = (
-				06B120CE1D811DAE00D14B02 /* Classes */,
-				06B120CF1D811DB400D14B02 /* Supporting Files */,
-			);
-			name = ChartsRealm;
-			sourceTree = "<group>";
-		};
-		06B120CE1D811DAE00D14B02 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				06E75CC61D90B0BB0013442C /* Data */,
-				06E75CD91D90B0BB0013442C /* Utils */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		06B120CF1D811DB400D14B02 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06B120F71D811E9600D14B02 /* ChartsRealm.h */,
-				06B120F81D811E9600D14B02 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		06B1210A1D811F2D00D14B02 /* ChartsRealmTests */ = {
-			isa = PBXGroup;
-			children = (
-				06B121131D81208F00D14B02 /* ChartsRealmTest.swift */,
-				06B1210E1D811FFB00D14B02 /* Supporting Files */,
-			);
-			name = ChartsRealmTests;
-			sourceTree = "<group>";
-		};
 		06B1210D1D811FF200D14B02 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				06B121111D81201C00D14B02 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		06B1210E1D811FFB00D14B02 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				06B1210F1D81201100D14B02 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -696,41 +604,6 @@
 			path = Source/Charts/Utils;
 			sourceTree = "<group>";
 		};
-		06E75CC61D90B0BB0013442C /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				06E75CC71D90B0BB0013442C /* RealmBarData.swift */,
-				06E75CC81D90B0BB0013442C /* RealmBarDataSet.swift */,
-				06E75CC91D90B0BB0013442C /* RealmBarLineScatterCandleBubbleDataSet.swift */,
-				06E75CCA1D90B0BB0013442C /* RealmBaseDataSet.swift */,
-				06E75CCB1D90B0BB0013442C /* RealmBubbleData.swift */,
-				06E75CCC1D90B0BB0013442C /* RealmBubbleDataSet.swift */,
-				06E75CCD1D90B0BB0013442C /* RealmCandleData.swift */,
-				06E75CCE1D90B0BB0013442C /* RealmCandleDataSet.swift */,
-				06E75CCF1D90B0BB0013442C /* RealmLineData.swift */,
-				06E75CD01D90B0BB0013442C /* RealmLineDataSet.swift */,
-				06E75CD11D90B0BB0013442C /* RealmLineRadarDataSet.swift */,
-				06E75CD21D90B0BB0013442C /* RealmLineScatterCandleRadarDataSet.swift */,
-				06E75CD31D90B0BB0013442C /* RealmPieData.swift */,
-				06E75CD41D90B0BB0013442C /* RealmPieDataSet.swift */,
-				06E75CD51D90B0BB0013442C /* RealmRadarData.swift */,
-				06E75CD61D90B0BB0013442C /* RealmRadarDataSet.swift */,
-				06E75CD71D90B0BB0013442C /* RealmScatterData.swift */,
-				06E75CD81D90B0BB0013442C /* RealmScatterDataSet.swift */,
-			);
-			name = Data;
-			path = Source/ChartsRealm/Data;
-			sourceTree = "<group>";
-		};
-		06E75CD91D90B0BB0013442C /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				06E75CDA1D90B0BB0013442C /* RealmChartUtils.swift */,
-			);
-			name = Utils;
-			path = Source/ChartsRealm/Utils;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -746,7 +619,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B120F91D811E9600D14B02 /* ChartsRealm.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1068,25 +940,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E75CE71D90B0BB0013442C /* RealmPieData.swift in Sources */,
-				06E75CDC1D90B0BB0013442C /* RealmBarDataSet.swift in Sources */,
-				06E75CE31D90B0BB0013442C /* RealmLineData.swift in Sources */,
-				06E75CEA1D90B0BB0013442C /* RealmRadarDataSet.swift in Sources */,
-				06E75CE21D90B0BB0013442C /* RealmCandleDataSet.swift in Sources */,
-				06E75CE91D90B0BB0013442C /* RealmRadarData.swift in Sources */,
-				06E75CDB1D90B0BB0013442C /* RealmBarData.swift in Sources */,
-				06E75CDD1D90B0BB0013442C /* RealmBarLineScatterCandleBubbleDataSet.swift in Sources */,
-				06E75CDF1D90B0BB0013442C /* RealmBubbleData.swift in Sources */,
-				06E75CEC1D90B0BB0013442C /* RealmScatterDataSet.swift in Sources */,
-				06E75CED1D90B0BB0013442C /* RealmChartUtils.swift in Sources */,
-				06E75CE81D90B0BB0013442C /* RealmPieDataSet.swift in Sources */,
-				06E75CE01D90B0BB0013442C /* RealmBubbleDataSet.swift in Sources */,
-				06E75CDE1D90B0BB0013442C /* RealmBaseDataSet.swift in Sources */,
-				06E75CE51D90B0BB0013442C /* RealmLineRadarDataSet.swift in Sources */,
-				06E75CE61D90B0BB0013442C /* RealmLineScatterCandleRadarDataSet.swift in Sources */,
-				06E75CEB1D90B0BB0013442C /* RealmScatterData.swift in Sources */,
-				06E75CE41D90B0BB0013442C /* RealmLineDataSet.swift in Sources */,
-				06E75CE11D90B0BB0013442C /* RealmCandleData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1094,7 +947,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B121141D81208F00D14B02 /* ChartsRealmTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1116,7 +968,6 @@
 /* Begin XCBuildConfiguration section */
 		06165F361D8110E700722320 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063FF0401D8CC9940094A042 /* Carthage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1173,7 +1024,6 @@
 		};
 		06165F371D8110E700722320 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063FF0401D8CC9940094A042 /* Carthage.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1328,7 +1178,6 @@
 		06B121081D811F1600D14B02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1344,7 +1193,6 @@
 		06B121091D811F1600D14B02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
